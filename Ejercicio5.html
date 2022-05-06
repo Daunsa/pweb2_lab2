@@ -19,9 +19,13 @@
 			 <td>prueba</td>
 		 </tr>
 	</table>
+	<input type="text" id="cantidadhorizontal">
+	<input type="text" id="cantidadvertical">
 	
-	<button onclick="document.getElementById('numero').innerHTML='hola'">Boton</button>
+	<button onclick="document.getElementById('numero').innerHTML=document.getElementById('cantidadhorizontal').value">Boton</button>
+	<button onclick="document.getElementById('numero').innerHTML=document.getElementById('cantidadvertical').value">Boton</button>
 
+	<p id="numero"></p>
 	<p id="numero"></p>
 
 
