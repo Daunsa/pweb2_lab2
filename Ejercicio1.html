@@ -14,7 +14,8 @@
         <script>
             const date = new Date(); // La fecha no cambia al inciarse la página
             const dias = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
-            console.log(dias[date.getDay()]);
+            var div = document.getElementById("texto");
+            div.innerHTML = "<p>" + dias[date.getDate()] + "</p>";
         </script>
     </body>
 </html>
