@@ -18,6 +18,7 @@
 		<script>
 			let temporesultado = 0;
 			function creartabla (vertical, horizontal){
+				temporesultado = 0;
 				let tempovertical = document.getElementById('cantidadvertical').value;
 				let tempohorizontal = document.getElementById('cantidadhorizontal').value;
 				tempovertical = parseInt(tempovertical);
@@ -48,7 +49,6 @@
 			}
 			function obtenerresultado (){
 				document.getElementById('resultado').innerHTML= "El resultado de la suma es: <h3>"+temporesultado+"</h3>";
-				temporesultado = 0;
 			}
  		</script>
 	</body>
