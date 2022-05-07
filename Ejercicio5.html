@@ -12,17 +12,6 @@
 		<h2>
 				Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.
 		</h2>
-		<table>
-			<tr>
-				<td>prueba</td>
-				<td>prueba</td>
-				<td>prueba</td>
-			</tr>
-			<tr>
-				<td>prueba</td>
-				<td>prueba</td>
-			</tr>
-		</table>
 		<input type="text" id="cantidadvertical">
 		<input type="text" id="cantidadhorizontal">
 
@@ -49,14 +38,11 @@
 						htmlcontenidodetabla += "<td>";
 						htmlcontenidodetabla += Math.floor(Math.random()*10)+1;
 						htmlcontenidodetabla += "</td>";
-
-
 					}
 					htmlcontenidodetabla += "</tr>";
 				}
 				htmlcontenidodetabla += "</table>";
 				console.log(htmlcontenidodetabla);
-
 				return htmlcontenidodetabla;
 			}
 
