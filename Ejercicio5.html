@@ -4,9 +4,6 @@
 		<title>Ejercicio 5</title>
 		<meta charset="UTF-8">
 	</head>
-		
-
-
 	<body>
 		<center><h1>Ejercicio 5<h1></center>
 		<h2>Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</h2>
@@ -45,15 +42,14 @@
 					htmlcontenidodetabla += "</tr>";
 				}
 				htmlcontenidodetabla += "</table><br><button onclick='obtenerresultado()'>Calcular la suma</button>";
-				console.log(htmlcontenidodetabla);
+				/*console.log(htmlcontenidodetabla);*/
 				console.log("temporesultado: "+temporesultado);
 				return htmlcontenidodetabla;
 			}
 			function obtenerresultado (){
-				document.getElementById('resultado').innerHTML= "El resultado de la suma es "+temporesultado;
+				document.getElementById('resultado').innerHTML= "El resultado de la suma es: <h3>"+temporesultado+"</h3>";
 				temporesultado = 0;
 			}
  		</script>
 	</body>
 </html>
-
