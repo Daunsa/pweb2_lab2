@@ -13,14 +13,14 @@
 		<!--pedimos datos-->
 		Número de Filas: <input type="text" id="cantidadvertical"><br>
 		Número de Columnas: <input type="text" id="cantidadhorizontal"><br>
-		<button onclick="document.getElementById('lugardetabla').innerHTML= creartabla()">Calcular</button>
+		<button onclick="document.getElementById('lugardetabla').innerHTML= creartabla()">Generar tabla</button>
 
 		<p id="lugardetabla"></p>
 		<p id="resultado"></p>
 
 		<script>
+			let temporesultado = 0;
 			function creartabla (vertical, horizontal){
-				let temporesultado = 0;
 				let tempovertical = document.getElementById('cantidadvertical').value;
 				let tempohorizontal = document.getElementById('cantidadhorizontal').value;
 				tempovertical = parseInt(tempovertical);
