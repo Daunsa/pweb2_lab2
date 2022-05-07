@@ -26,7 +26,7 @@
 		<input type="text" id="cantidadvertical">
 		<input type="text" id="cantidadhorizontal">
 
-		<button onclick="creartabla()">Calcular</button>
+		<button onclick="document.getElementById('lugardetabla').innerHTML= creartabla()">Calcular</button>
 
 		<p id="lugardetabla"></p>
 
@@ -41,23 +41,23 @@
 				console.log("tempovertical: "+tempovertical);
 				console.log("tempohorizontal: "+tempohorizontal);
 
-				let htmlcontenidodetabla = '<table>';
+				let htmlcontenidodetabla = "<table>";
 				for (let i=0;i<tempovertical;i++){
-					htmlcontenidodetabla += '<tr>';
+					htmlcontenidodetabla += "<tr>";
 					for (let j=0;j<tempohorizontal;j++){
 						console.log("i: "+i+"j: "+j);
-						htmlcontenidodetabla += '<td>';
+						htmlcontenidodetabla += "<td>";
 						htmlcontenidodetabla += Math.floor(Math.random()*10)+1;
-						htmlcontenidodetabla += '</td>';
+						htmlcontenidodetabla += "</td>";
 
 
 					}
-					htmlcontenidodetabla += '</tr>';
+					htmlcontenidodetabla += "</tr>";
 				}
-				htmlcontenidodetabla += '</table>';
+				htmlcontenidodetabla += "</table>";
 				console.log(htmlcontenidodetabla);
 
-
+				return htmlcontenidodetabla;
 			}
 
  		</script>
