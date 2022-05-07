@@ -34,23 +34,24 @@
 				for (let i=0;i<tempovertical;i++){
 					htmlcontenidodetabla += "<tr>";
 					for (let j=0;j<tempohorizontal;j++){
-						console.log("i: "+i+"j: "+j);
+						/*console.log("i: "+i+"j: "+j);*/
 						htmlcontenidodetabla += "<td>";
 						let tempoaleatorio = Math.floor(Math.random()*10)+1;
+						console.log("temporesultado: "+temporesultado+"+"+tempoaleatorio);
 						temporesultado += tempoaleatorio;
 						htmlcontenidodetabla += tempoaleatorio;
 						htmlcontenidodetabla += "</td>";
 					}
 					htmlcontenidodetabla += "</tr>";
 				}
-							htmlcontenidodetabla += "</table><br><button onclick=''>Calcular la suma</button>";
+				htmlcontenidodetabla += "</table><br><button onclick='obtenerresultado()'>Calcular la suma</button>";
 				console.log(htmlcontenidodetabla);
 				console.log("temporesultado: "+temporesultado);
 				return htmlcontenidodetabla;
 			}
 			function obtenerresultado (){
 				document.getElementById('resultado').innerHTML= "El resultado de la suma es "+temporesultado;
-				
+				temporesultado = 0;
 			}
  		</script>
 	</body>
