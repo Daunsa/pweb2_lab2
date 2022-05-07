@@ -20,6 +20,7 @@
 
 		<script>
 			function creartabla (vertical, horizontal){
+				let temporesultado = 0;
 				let tempovertical = document.getElementById('cantidadvertical').value;
 				let tempohorizontal = document.getElementById('cantidadhorizontal').value;
 				tempovertical = parseInt(tempovertical);
@@ -35,13 +36,17 @@
 					for (let j=0;j<tempohorizontal;j++){
 						console.log("i: "+i+"j: "+j);
 						htmlcontenidodetabla += "<td>";
-						htmlcontenidodetabla += Math.floor(Math.random()*10)+1;
+						let tempoaleatorio = Math.floor(Math.random()*10)+1;
+						temporesultado += tempoaleatorio;
+						htmlcontenidodetabla += tempoaleatorio;
 						htmlcontenidodetabla += "</td>";
 					}
 					htmlcontenidodetabla += "</tr>";
 				}
 				htmlcontenidodetabla += "</table>";
 				console.log(htmlcontenidodetabla);
+				console.log("temporesultado: "+temporesultado);
+				document.getElementById('resultado').innerHTML= "El resultado de la suma es "+temporesultado;
 				return htmlcontenidodetabla;
 			}
  		</script>
