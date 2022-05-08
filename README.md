@@ -54,7 +54,7 @@
 			<tr>
 				<td colspan="3">INTEGRANTES:
 					<ul>
-					<li><a href="https://github.com/Daunsa">Daniel Edwad Tapia Saenz</a></li>
+					<li><a href="https://github.com/Daunsa">Daniel Edward Tapia Saenz</a></li>
 					<li><a href="https://github.com/timysuclle3">Michael Benjamin Suclle Suca</a></li>
 					<li><a href="https://github.com/Jerbo03">José André Paredes Quispe</a></li>
 				  	<li><a href="https://github.com/Icielo23">Valery Cielo Iquise Mamani</a></li>
@@ -97,7 +97,8 @@
 <h2>- Ejercicio 4</h2><br>
 -Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores.</a><br>
 - Resolución<br>	
-	<img src="" alt="">
+	Para resolver este ejercio considere necesario que se use un archivo.js para tener mejor ordenadas las funciones que usaria, ya que se trataba de mas de una linea.
+	<img src="https://i.ibb.co/BrgssVV/Captura-de-pantalla-2022-05-08-120051.png" alt="">
 <h2>- Ejercicio 5</h2><br>
 -Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</a><br>
 - Resolución<br>
@@ -106,7 +107,7 @@
 -Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.</a><br>
 - Links de videos<br>
 <ul>
-	<li><a href="">Daniel Edwad Tapia Saenz</a></li>
+	<li><a href="https://flipgrid.com/570f95ea">Daniel Edwad Tapia Saenz</a></li>
 	<li><a href="">Michael Benjamin Suclle Suca</a></li>
 	<li><a href="">José André Paredes Quispe</a></li>
 	<li><a href="https://flipgrid.com/8c99e097">Valery Cielo Iquise Mamani</a></li>
@@ -119,11 +120,12 @@
 <h4>- ¿Cómo se pueden resolver los warnings?</h4><br>
 - Se puede resolver los warnings consultando a el mensaje que nos sale en la página stackoverflow donde hay casos similares que nos permiten dar solución a la advertencia que nos muestra jslint en nuestro codigo.<br>
 <h4>- ¿Se puede modificar la solución usando map? ¿Cómo? </h4><br>
+- Si, ya que este nos permite inicalizar la matriz con un largo especifico ademas de que al mismo tiempo hace posible que en este se cargen datos inicialmente, por lo que incluso se puede iterar.
 <br><br></td></tr>
 <tr><td>III. CONCLUSIONES<br>
 - Java Script nos ofrece una gran ayuda para realizar páginas donde queramos que haya interacción con el usuario y nos proporciona herramientas y librerías de funciones y métodos que nos permiten hacer una variedad de cosas. <br>
 
-
+- Java Script nos permite codificar de forma rapida diferentes funcionalidades que html no puede resolver, por lo que este es de gran utilidad al momneto de realizar acciones como calculos o efectos en las vistas de nuestra pagina web.
 <br><br></td></tr>
 </tbody>
 </table>
