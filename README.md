@@ -135,7 +135,7 @@
 </theader>
 <tbody>
 	<td>
-Contenido de retroalimentacion
+
 	</td>
 </tbody>
 </table>
