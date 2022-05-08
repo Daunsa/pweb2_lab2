@@ -89,9 +89,9 @@
 <h2>- Ejercicio 2</h2><br>
 -Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.</a><br>
 - Resolución<br>	
-	<img src="https://ibb.co/zQqxSWM" alt="">
+	<img src="https://i.ibb.co/Bc03gHp/Ejer2.jpg" alt="">
 - Commits realizados<br>	
-	<img src="https://ibb.co/JCPBZPx" alt="">
+	<img src="https://i.ibb.co/nRSgpS3/coonmit.jpg" alt="">
 <h2>- Ejercicio 3</h2><br>
 -Escribir una página que muestre cuántos días faltan para el día de Arequipa!</a><br>
 - Commits realizados<br>	
@@ -116,10 +116,10 @@
 </ul>
 </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTINARIO<br>
-- Pruebe este código de arrayGenerator() en la página https://jslint.com/
-- Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript
-    - ¿Cómo se pueden resolver los warnings?
-    - ¿Se puede modificar la solución usando map? ¿Cómo?
+- Pruebe este código de arrayGenerator() en la página https://jslint.com/ <br>
+- Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript <br>
+    - ¿Cómo se pueden resolver los warnings? <br>
+    - ¿Se puede modificar la solución usando map? ¿Cómo? <br>
 <br><br></td></tr>
 <tr><td>III. CONCLUSIONES<br>
 
@@ -132,9 +132,12 @@
 <table>
 <theader>
 <tr><th colspan="6">RETROALIMENTACIÓN GENERAL</th></tr>
-<br><br></td></tr>  
 </theader>
-
+<tbody>
+	<td>
+Contenido de retroalimentacion
+	</td>
+</tbody>
 </table>
 </div>
 
@@ -144,8 +147,11 @@
 <tr><th colspan="6">REFERENCIAS Y BIBLIOGRAFÍA</th></tr>
 </theader>
 <tbody>
-
-
+	<td>
+	- JavaScript Tutorial. (2015). W3School. Geraadpleegd op 8 mei 2022, van https://www.w3schools.com/js/default.asp <br>
+	- Crockford, D. (2015). JSLint: The JavaScript Code Quality and Coverage Tool. JSLint. Geraadpleegd op 8 mei 2022, van https://www.jslint.com/ <br>
+	- Stack Overflow - Where Developers Learn, Share, & Build Careers. (2013). Stack Overflow. Geraadpleegd op 8 mei 2022, van https://stackoverflow.com/ <br>
+	</td>
 </tbody>
 </table>
 </div>
