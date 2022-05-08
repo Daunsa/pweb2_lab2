@@ -98,7 +98,7 @@
 -Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores.</a><br>
 - Resolución<br>	
 	Para resolver este ejercio considere necesario que se use un archivo.js para tener mejor ordenadas las funciones que usaria, ya que se trataba de mas de una linea.
-	<img src="https://i.ibb.co/BrgssVV/Captura-de-pantalla-2022-05-08-120051.png" alt="">
+	<br><img src="https://i.ibb.co/BrgssVV/Captura-de-pantalla-2022-05-08-120051.png" alt="">
 <h2>- Ejercicio 5</h2><br>
 -Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</a><br>
 - Resolución<br>
