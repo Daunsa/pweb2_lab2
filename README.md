@@ -118,10 +118,13 @@
 <tr><td>II. SOLUCIÓN DEL CUESTINARIO<br>
 - Pruebe este código de arrayGenerator() en la página https://jslint.com/ <br>
 - Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript <br>
-    - ¿Cómo se pueden resolver los warnings? <br>
-    - ¿Se puede modificar la solución usando map? ¿Cómo? <br>
+<h4>- ¿Cómo se pueden resolver los warnings?</h4><br>
+- Se puede resolver los warnings consultando a el mensaje que nos sale en la página stackoverflow donde hay casos similares que nos permiten dar solución a la advertencia que nos muestra jslint en nuestro codigo.<br>
+<h4>- ¿Se puede modificar la solución usando map? ¿Cómo? </h4><br>
 <br><br></td></tr>
 <tr><td>III. CONCLUSIONES<br>
+- Java Script nos ofrece una gran ayuda para realizar páginas donde queramos que haya interacción con el usuario y nos proporciona herramientas y librerías de funciones y métodos que nos permiten hacer una variedad de cosas. <br>
+
 
 <br><br></td></tr>
 </tbody>
