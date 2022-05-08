@@ -57,7 +57,7 @@
 					<li><a href="https://github.com/Daunsa">Daniel Edwad Tapia Saenz</a></li>
 					<li><a href="https://github.com/timysuclle3">Michael Benjamin Suclle Suca</a></li>
 					<li><a href="https://github.com/Jerbo03">José André Paredes Quispe</a></li>
-				  <li><a href="https://github.com/Icielo23">Valery Cielo Iquise Mamani</a></li>
+				  	<li><a href="https://github.com/Icielo23">Valery Cielo Iquise Mamani</a></li>
 					<li><a href="https://github.com/Mario-Chura">Mario Franco Chura Puma</a></li>
 					</ul>
 				</td>
@@ -81,12 +81,45 @@
 <tr><th colspan="6">SOLUCIÓN Y RESULTADOS</th></tr>
 </theader>
 <tbody>
-
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:<br>
-
+<h2>- Ejercicio 1</h2><br>
+-Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp  y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.</a><br>
+- Commits realizados<br>	
+	<img src="" alt="">
+<h2>- Ejercicio 2</h2><br>
+-Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.</a><br>
+- Resolución<br>	
+	<img src="https://ibb.co/zQqxSWM" alt="">
+- Commits realizados<br>	
+	<img src="https://ibb.co/JCPBZPx" alt="">
+<h2>- Ejercicio 3</h2><br>
+-Escribir una página que muestre cuántos días faltan para el día de Arequipa!</a><br>
+- Commits realizados<br>	
+	<img src="" alt="">
+<h2>- Ejercicio 4</h2><br>
+-Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores.</a><br>
+- Commits realizados<br>	
+	<img src="" alt="">
+<h2>- Ejercicio 5</h2><br>
+-Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</a><br>
+- Commits realizados<br>	
+	<img src="" alt="">
+<h2>- Ejercicio 6</h2><br>
+-Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.</a><br>
+- Links de videos<br>
+<ul>
+	<li><a href="">Daniel Edwad Tapia Saenz</a></li>
+	<li><a href="">Michael Benjamin Suclle Suca</a></li>
+	<li><a href="">José André Paredes Quispe</a></li>
+	<li><a href="https://flipgrid.com/8c99e097">Valery Cielo Iquise Mamani</a></li>
+	<li><a href="https://flipgrid.com/3b1c65b2">Mario Franco Chura Puma</a></li>
+</ul>
 </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTINARIO<br>
-
+- Pruebe este código de arrayGenerator() en la página https://jslint.com/
+- Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript
+    - ¿Cómo se pueden resolver los warnings?
+    - ¿Se puede modificar la solución usando map? ¿Cómo?
 <br><br></td></tr>
 <tr><td>III. CONCLUSIONES<br>
 
