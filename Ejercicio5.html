@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Ejercicio 5</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<center><h1>Ejercicio 5<h1></center>
+		<h2>Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</h2>
+		<!--pedimos datos-->
+		Número de Filas: <input type="text" id="cantidadvertical"><br>
+		Número de Columnas: <input type="text" id="cantidadhorizontal"><br>
+		<button onclick="document.getElementById('lugardetabla').innerHTML= creartabla()">Generar tabla</button>
+
+		<p id="lugardetabla"></p>
+		<p id="resultado"></p>
+
+		<script>
+			let temporesultado = 0;
+			function creartabla (vertical, horizontal){
+				temporesultado = 0;
+				let tempovertical = document.getElementById('cantidadvertical').value;
+				let tempohorizontal = document.getElementById('cantidadhorizontal').value;
+				tempovertical = parseInt(tempovertical);
+				tempohorizontal = parseInt(tempohorizontal);
+				//transformamos datos a enteros
+				console.log("hola");
+				console.log("tempovertical: "+tempovertical);
+				console.log("tempohorizontal: "+tempohorizontal);
+
+				let htmlcontenidodetabla = "<table>";
+				for (let i=0;i<tempovertical;i++){
+					htmlcontenidodetabla += "<tr>";
+					for (let j=0;j<tempohorizontal;j++){
+						/*console.log("i: "+i+"j: "+j);*/
+						htmlcontenidodetabla += "<td>";
+						let tempoaleatorio = Math.floor(Math.random()*10)+1;
+						console.log("temporesultado: "+temporesultado+"+"+tempoaleatorio);
+						temporesultado += tempoaleatorio;
+						htmlcontenidodetabla += tempoaleatorio;
+						htmlcontenidodetabla += "</td>";
+					}
+					htmlcontenidodetabla += "</tr>";
+				}
+				htmlcontenidodetabla += "</table><br><button onclick='obtenerresultado()'>Calcular la suma</button>";
+				/*console.log(htmlcontenidodetabla);*/
+				console.log("temporesultado: "+temporesultado);
+				return htmlcontenidodetabla;
+			}
+			function obtenerresultado (){
+				document.getElementById('resultado').innerHTML= "El resultado de la suma es: <h3>"+temporesultado+"</h3>";
+			}
+ 		</script>
+	</body>
+</html>
