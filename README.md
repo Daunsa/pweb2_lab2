@@ -85,7 +85,7 @@
 <h2>- Ejercicio 1</h2><br>
 -Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp  y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.</a><br>
 - Resolución<br>
-	<img src="" alt="">
+	<img src="https://cdn.discordapp.com/attachments/835203258342834249/972944390127501312/unknown.png" alt="Ejercicio 1">
 <h2>- Ejercicio 2</h2><br>
 -Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.</a><br>
 - Resolución<br>	
