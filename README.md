@@ -125,8 +125,7 @@
 <br><br></td></tr>
 <tr><td>III. CONCLUSIONES<br>
 - Java Script nos ofrece una gran ayuda para realizar páginas donde queramos que haya interacción con el usuario y nos proporciona herramientas y librerías de funciones y métodos que nos permiten hacer una variedad de cosas. <br>
-
-- Java Script nos permite codificar de forma rapida diferentes funcionalidades que html no puede resolver, por lo que este es de gran utilidad al momneto de realizar acciones como calculos o efectos en las vistas de nuestra pagina web.
+- Java Script nos permite codificar de forma rapida diferentes funcionalidades que html no puede resolver, por lo que este es de gran utilidad al momneto de realizar acciones como calculos o efectos en las vistas de nuestra pagina web.<br>
 <br><br></td></tr>
 </tbody>
 </table>
