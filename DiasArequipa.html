@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiasdeArequipa</title>
+</head>
+<body>
+    <h2>Los dias que quedan para el aniversario de Arequipa ʕ•́ᴥ•̀ʔっ♡</h2> 
+     <h3 id="dias"></h3>
+    <script>
+       var hoy = new Date();
+        var aniversario = new Date('2022-8-15');
+
+        var equivalencia = 86400000;
+        var diferencia = aniversario - hoy;
+        var diferenciaendias = diferencia / equivalencia;
+
+        document.getElementById("dias").innerHTML =Math.round( diferenciaendias );
+    </script>
+</body>
+</html>
