@@ -93,7 +93,7 @@
 <h2>- Ejercicio 3</h2><br>
 -Escribir una página que muestre cuántos días faltan para el día de Arequipa!</a><br>
 - Resolución<br>	
-	<img src="" alt="">
+	<img src="https://i.ibb.co/QXFv4PG/vale.jpg" alt="">
 <h2>- Ejercicio 4</h2><br>
 -Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores.</a><br>
 - Resolución<br>	
