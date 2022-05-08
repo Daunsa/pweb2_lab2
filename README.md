@@ -110,7 +110,7 @@
 <ul>
 	<li><a href="https://flipgrid.com/570f95ea">Daniel Edwad Tapia Saenz</a></li>
 	<li><a href="https://flipgrid.com/57527a91">Michael Benjamin Suclle Suca</a></li>
-	<li><a href="">José André Paredes Quispe</a></li>
+	<li><a href="https://flipgrid.com/s/_zvrMzRrdWPz">José André Paredes Quispe</a></li>
 	<li><a href="https://flipgrid.com/8c99e097">Valery Cielo Iquise Mamani</a></li>
 	<li><a href="https://flipgrid.com/3b1c65b2">Mario Franco Chura Puma</a></li>
 </ul>
